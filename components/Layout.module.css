@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Stacking title and nav vertically */
+    align-items: center; /* Center title horizontally */
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px; /* Increased size */
+    text-align: center; /* Centered text */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    width: 100%; /* Take full width of header */
+}
+
+.link {
+    margin-right: 15px;
+    text-decoration: none; /* Optional: removes underline */
+    color: inherit; /* Optional: inherits text color */
+}
+
+.link:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+}
