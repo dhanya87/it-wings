@@ -1,6 +1,6 @@
 // components/Layout.js
 import Link from 'next/link';
-import styles from './Layout.module.css'; // Assuming you create a CSS module
+import styles from './Layout.module.css'; 
 
 const Layout = ({ children }) => {
     return (
